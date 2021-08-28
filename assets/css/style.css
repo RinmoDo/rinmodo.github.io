@@ -1,9 +1,8 @@
 /*
- * Theme Name: 
- * Theme URI: 
+ * Theme Name: PERFECT FOLIO
  * Author: Milan Savov
- * Author URI/Mail: milan.savov@gmail.com
- * Version: 1.0
+ * Author/ Editor : RinmoDo
+ * Version: 1.2
  * */
 
 /* FONT
@@ -267,7 +266,7 @@ html, body {
 }
 /* site-section */
 .site-section {
-   padding-top: 120px;
+   padding-top: 80px; /*120*/
 }
 
 .site-section h2,
@@ -287,7 +286,7 @@ html, body {
 
 /* Section: Skills */
 .section-skills {
-    padding-bottom: 120px;
+    padding-bottom: 60px; /*120*/
 }
 
 .skill + .skill {
@@ -315,7 +314,7 @@ html, body {
 /* Section: Services */
 .section-services {
     position: relative;
-    padding-top: 220px;
+    padding-top: 120px; /*220*/
 }
 
 .section-services:before {
@@ -360,7 +359,7 @@ html, body {
 
 /* Section: Portfolio */
 .section-portfolio {
-    padding-bottom: 120px;
+    padding-bottom: 80px; /*120*/
 }
 
 .portfolio-item {
@@ -417,10 +416,10 @@ html, body {
 }
 
 .portfolio-item-info a {
-    padding: 6px 7px 4px;
-    font-size: 12px;
+    padding: 8px 18px 4px;
+    font-size: 20px;
     border: 1px solid #fff;
-    border-radius: 50px;
+    border-radius: 15px;
     color: #fff;
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
@@ -517,7 +516,7 @@ html, body {
 
 /* Section: Form*/
 .section-form {
-    padding-bottom: 120px;
+    padding-bottom: 80px; /*120*/
 }
 
 .section-form .btn {
@@ -527,7 +526,6 @@ html, body {
 /* FOOTER
 ================================================== */
 .site-footer {
-    position: fixed;
     bottom: 0;
     padding: 30px 0;
     width: 100%;
